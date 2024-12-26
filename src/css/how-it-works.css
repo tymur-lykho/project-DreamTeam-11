@@ -1,14 +1,27 @@
 .how-it-works-section {
   background-color: var(--color-green-background);
 }
+@media only screen and (min-width: 768px) {
+  .how-it-works-section {
+    background: linear-gradient(
+      180deg,
+      rgba(122, 49, 69, 1) 50%,
+      rgba(87, 111, 53, 1) 50%
+    );
+  }
+}
 @media only screen and (min-width: 1280px) {
   .how-it-works-section {
     display: flex;
     justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(122, 49, 69, 1) 50%,
+      rgba(87, 111, 53, 1) 50%
+    );
   }
 }
 .works-wrapper {
-  background-color: var(--color-primary-brand);
   display: flex;
   justify-content: center;
   align-items: center;
