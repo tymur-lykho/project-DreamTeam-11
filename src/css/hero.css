@@ -8,7 +8,7 @@
   padding-top: 100px;
   padding-bottom: 412px;
 
-  background-image: url(/img/hero/pic-mob@1x.jpg);
+  background-image: url(/img/hero/pic-mob@1x.webp);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -17,7 +17,7 @@
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-container {
-    background-image: url(/img/hero/pic-mob@2x.jpg);
+    background-image: url(/img/hero/pic-mob@2x.webp);
   }
 }
 @media screen and (max-width: 374px) {
@@ -30,11 +30,11 @@
   .hero-container {
     padding-top: 120px;
     padding-bottom: 588px;
-    background-image: url(/img/hero/pic-tab@1x.jpg);
+    background-image: url(/img/hero/pic-tab@1x.webp);
   }
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(/img/hero/pic-tab@2x.jpg);
+      background-image: url(/img/hero/pic-tab@2x.webp);
     }
   }
 }
@@ -43,13 +43,13 @@
   .hero-container {
     padding-top: 232px;
     padding-bottom: 52px;
-    background-image: url(/img/hero/pic-desk@1x.jpg);
+    background-image: url(/img/hero/pic-desk@1x.webp);
 
     background-position: right;
   }
   @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(/img/hero/pic-desk@2x.jpg);
+      background-image: url(/img/hero/pic-desk@2x.webp);
     }
   }
 }
