@@ -122,3 +122,8 @@ body {
 .other-link:focus::before {
   background-color: var(--color-accent);
 }
+
+.scroll-lock {
+  overflow: hidden;
+  height: 100vh;
+}
