@@ -10,6 +10,10 @@
   --color-error-state: #e74a3b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
@@ -93,12 +97,28 @@ body {
 }
 
 .other-link {
+  position: relative;
   transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition-property: color, background-color, border-radius;
+  transition-property: color;
+  z-index: 1;
 }
 .other-link:hover,
 .other-link:focus {
-  border-radius: 4px;
   color: var(--color-primary-brand);
+}
+.other-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -3px;
+  right: -3px;
+  bottom: 0;
+  background-color: transparent;
+  z-index: -1;
+  transition: background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 8px;
+}
+.other-link:hover::before,
+.other-link:focus::before {
   background-color: var(--color-accent);
 }
